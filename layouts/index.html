@@ -18,9 +18,13 @@
 
 <section id="main">
   <div>
-      <h1 id="title">{{.Site.Title}}</h1>
+      <h1 id="title" style="font-size:50.7px">{{.Site.Title}}</h1>
     {{ range first 10 .Data.Pages }}
-        {{ .Render "summary"}}
+      {{ if eq .Section "me" }}
+      {{ else if (eq .Section "") }}
+      {{ else }}   
+        {{ .Render "summary" }}
+      {{ end }}
     {{ end }}
   </div>
 </section>

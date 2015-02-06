@@ -11,7 +11,6 @@
         </article>
   </div>
 </section>
-
 <aside id="meta">
     <div itemscope itemtype="http://schema.org/SoftwareApplication" id="projectmeta">
         {{ with .Params.project_name }}
@@ -35,7 +34,6 @@
         <meta itemprop="operatingSystems" content="{{ index .Params "operating_system" | or "Windows 7 and above, OSX 10.7 and above, linux" }}">
     </div>
 
-{{ partial "details.html" . }}
 </aside>
 
 <meta itemprop="wordCount" content="{{ .WordCount }}">
