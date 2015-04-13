@@ -2,10 +2,15 @@ baseurl = "http://erica-zhou.github.io"
 title = "Erica On The Way"
 languageCode = "zh-cn"
 copyright = "Copyright (c) 2008 - 2015, Erica Zhou; all rights reserved."
-MetaDataFormat = "yaml"
+MetaDataFormat = "json"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
+buildFuture=true
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	series = "series"	
 
 [author]
     name = "Erica Zhou"
