@@ -11,10 +11,6 @@ topics:
 - Development
 - golang
 ---
-# 利用 git hook 搭建自动编译部署测试环境
-@(Inbox)[golang|开发环境|工程]	
-
-
 ### 说明：
 利用 docker，git 搭建自动编译部署测试环境
 **步骤：**
@@ -38,8 +34,6 @@ topics:
 创建 Dockfile 并不是一个必须的步骤，但是创建测试环境的 Dockfile，并保存，能让开发人员在换了测试服务器（非`dev_server`）后能快速的搭建测试环境而不需要重新搭建
 
 2. 新建一个`ci_server` container
-
-
 - 新运行一个 container 名为`ci_server`，需要将`ci_server` 的端口22 映射到宿主机
 - 安装运行ssh
 - 配置好程序编译环境
