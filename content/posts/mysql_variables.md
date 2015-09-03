@@ -145,6 +145,12 @@ max_connections = 1000
 table_open_cache = 2000
 ```
 
+## 其它
+淘宝数据库内核月报中说道的相关内容：
+
+[MySQL · 答疑解惑 · open file limits](http://mysql.taobao.org//monthly/2015/08/07/)
+这篇主要讲的是，MySQL 在执行哪些操作时会执行打开文件的操作
+
 ## 附注
 [1] . 非root用户，只能设置Hard limit之内的值，root用户可以设置hard limit的值
 [2] .[参考文章][1]
