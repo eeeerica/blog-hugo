@@ -1,4 +1,4 @@
-{{ $baseurl := .Site.BaseUrl }}
+{{ $baseurl := .Site.BaseURL }}
     <div>
         <section id="datecount">
           <h4 id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h4>
@@ -27,10 +27,9 @@
 
     <div>
         <section id="author">
-             <h4>关于作者:</h4> 
-                一名在魔都奋斗开发员，始终相信早时不作业，晚时不作息这句话，是<a
-                href="https://github.com/erica-zhou/tester-on-docker" target="_blank">tester-on-docker</a>的作者。
-                <br/> 可以通过 <a href="http://weibo.com/dongzouxigu" target="_blank">微博</a>,
-                <a href="http://github.com/erica-zhou" target="_blank">Github</a>或者<a href="mailto:zhou.erica.w@gmail.com">Gmail</a>联系作者。
+             <h4>关于作者:			 {{.Site.Data.me.author.username_cn}}~</h4> 
+			 {{.Site.Data.me.username_cn}}
+              
+	 {{.Site.Data.me.author.desc}}
         </section>
     </div>

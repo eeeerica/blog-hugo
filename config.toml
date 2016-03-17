@@ -7,6 +7,7 @@ contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 buildFuture=true
+disqusShortname = "Erica"
 [taxonomies]
 	tag = "tags"
 	category = "categories"
