@@ -1,5 +1,6 @@
 ---
 date: 2015-08-16T23:04:24+08:00
+isCJKLanguage: "true"
 description: ""
 tags:
 - golang
@@ -10,6 +11,7 @@ title: 利用 git hook 搭建自动编译部署测试环境
 topics:
 - Development
 - golang
+
 ---
 ### 说明：
 利用 docker，git 搭建自动编译部署测试环境
@@ -18,6 +20,7 @@ topics:
 2. 创建在 `ci_server`代码远端仓库 `test_repo`
 3. 在远端仓库中添加 post-recieve hook
 3. 在开发机上本地仓库上新添加一个远程仓库指向的远端仓库
+
 
 **说明：**
 `dev_server`和 `ci_server`都是docker container

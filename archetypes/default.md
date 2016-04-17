@@ -1,5 +1,6 @@
 +++
 title = ""
+isCJKLanguage = "true"
 description = ""
 tags = [
     "go",

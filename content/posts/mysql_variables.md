@@ -1,5 +1,6 @@
 ---
 date: 2015-06-06T11:10:08+08:00
+isCJKLanguage: "true"
 description: ""
 tags:
 - development

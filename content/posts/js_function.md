@@ -1,5 +1,6 @@
 ---
 date: 2015-09-05T17:11:21+08:00
+isCJKLanguage: "true"
 description: ""
 tags:
 - javascripts
