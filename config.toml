@@ -8,14 +8,26 @@ layoutdir = "layouts"
 publishdir = "public"
 buildFuture=true
 disqusShortname = "Erica"
-[taxonomies]
-	tag = "tags"
-	category = "categories"
-	series = "series"	
+theme="docdock"
+[params] # for dockdock 
+showVisitedLinks = true # default is false
+themeVariant ="blue"
 
 [author]
     name = "Erica Zhou"
 
-[indexes]
-    tag = "tags"
-    topic = "topics"
+[outputs] # for dockdock search
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/eeeerica"
+weight = 10
+
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-user'></i>  关于我"
+url = "/me"
+weight = 12
