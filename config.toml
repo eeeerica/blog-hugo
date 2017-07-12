@@ -8,9 +8,12 @@ layoutdir = "layouts"
 publishdir = "public"
 buildFuture=true
 theme="docdock"
+
 [params] # for dockdock 
 showVisitedLinks = true # default is false
 themeVariant ="blue"
+githubId="root-w"
+
 
 [author]
     name = "西顾"
