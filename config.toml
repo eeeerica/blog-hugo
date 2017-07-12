@@ -1,20 +1,19 @@
-baseurl = "http://eeeerica.github.io"
-title = "Erica On The Way"
+baseurl = "http://root-w.github.io"
+title = "Root On The Way"
 languageCode = "zh-cn"
-copyright = "Copyright (c) 2008 - 2015, Erica Zhou; all rights reserved."
+copyright = "Copyright (c) 2008 - 2015, Root Zhou; all rights reserved."
 MetaDataFormat = "yaml"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
 buildFuture=true
-disqusShortname = "Erica"
 theme="docdock"
 [params] # for dockdock 
 showVisitedLinks = true # default is false
 themeVariant ="blue"
 
 [author]
-    name = "Erica Zhou"
+    name = "西顾"
 
 [outputs] # for dockdock search
 home = [ "HTML", "RSS", "JSON"]
@@ -23,7 +22,7 @@ home = [ "HTML", "RSS", "JSON"]
 pre = "<h3>More</h3>"
 name = "<i class='fa fa-github'></i> Github repo"
 identifier = "ds"
-url = "https://github.com/eeeerica"
+url = "https://github.com/root-w"
 weight = 10
 
 
