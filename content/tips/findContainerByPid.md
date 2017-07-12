@@ -1,9 +1,10 @@
 +++
-title = "finding container by process id"
+title = "通过 pid 查找docker容器"
 isCJKLanguage = "true"
 description = ""
 tags = [
     "bash",
+    "docker",
 ]
 topics = [
     "Development",

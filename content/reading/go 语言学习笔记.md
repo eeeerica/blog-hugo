@@ -10,6 +10,7 @@ tags:
 - garbage collection
 topics:
 - go 语言学习笔记
+url: "reading/qyuhenGo"
 ---
 
 ## 14章-15章
