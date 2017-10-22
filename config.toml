@@ -1,4 +1,4 @@
-baseurl = "http://root-w.github.io"
+baseurl = "http://Ref.github.io"
 title = "Root On The Way"
 languageCode = "zh-cn"
 copyright = "Copyright (c) 2008 - 2015, Root Zhou; all rights reserved."
@@ -8,11 +8,12 @@ layoutdir = "layouts"
 publishdir = "public"
 buildFuture=true
 theme="docdock"
+defaultContentLanguage = "cn"
 
 [params] # for dockdock 
 showVisitedLinks = true # default is false
 themeVariant ="blue"
-githubId="root-w"
+githubId="Ref"
 
 
 [author]
@@ -25,7 +26,7 @@ home = [ "HTML", "RSS", "JSON"]
 pre = "<h3>More</h3>"
 name = "<i class='fa fa-github'></i> Github repo"
 identifier = "ds"
-url = "https://github.com/root-w"
+url = "https://github.com/Ref"
 weight = 10
 
 

@@ -9,6 +9,7 @@ tags:
 title: mysqlsandbox 的安装与使用
 topics:
 - Development
+url: "mysql-sandbox-usage"
 ---
 
 
